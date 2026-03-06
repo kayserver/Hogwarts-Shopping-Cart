@@ -172,7 +172,7 @@ let total = computed(
   () => subtotal.value + shippingEstimate.value + taxEstimate.value
 )
 
-// Automatically save to localStorage whenever any part of shoppingCartItems changes
+//Automatically save to localStorage whenever any part of shoppingCartItems changes
 watch(
   shoppingCartItems,
   () => {
