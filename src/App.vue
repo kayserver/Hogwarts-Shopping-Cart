@@ -183,6 +183,7 @@ watch(
   },
   { deep: true }
 )
+// everytime there is a change in the shopping cart in the local storage it will store the contents
 </script>
 
 <style scoped>
